@@ -1,0 +1,7 @@
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\bin\Debug\PA.exe.config
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\bin\Debug\PA.exe
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\bin\Debug\PA.pdb
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\obj\Debug\PA.csproj.AssemblyReference.cache
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\obj\Debug\PA.csproj.CoreCompileInputs.cache
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\obj\Debug\PA.exe
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA3\student\jdomino\PA3\PA\obj\Debug\PA.pdb

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PA.State">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PA.State.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>State\__DO_NOT_MODIFY__\State.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAEAAAAAAAGIACAICAAAAAAAAA=</HashCode>
+      <FileName>State\__DO_NOT_MODIFY__\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Context">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAAAAAAIAAAAEAAAAAMADIAACIAAAAAAAAAA=</HashCode>
+      <FileName>State\__Modify__\Context.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pState" />
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.SLink" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Visitor_Standard\__DO_NOT_MODIFY__\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.WalkingState" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\__Modify__\WalkingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.SittingState" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\__Modify__\SittingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.StandingState" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\__Modify__\StandingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

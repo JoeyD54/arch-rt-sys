@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F2D6D94-1C78-4710-8E39-61E7E40EDB2C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PA</RootNamespace>
+    <AssemblyName>PA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>CS0649</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapter\__Refactor__\Imperial_Adapter.cs" />
+    <Compile Include="Adapter\__DO_NOT_MODIFY__\Imperial.cs" />
+    <Compile Include="Adapter\__DO_NOT_MODIFY__\MetricMachine.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\AllWheelDrive.cs" />
+    <Compile Include="Factory\__Refactor__\Atlas.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\Factory_Base.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\Hatchback.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\Sedan.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\ThirdRow.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\TowPackage.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\TwoWheelDrive.cs" />
+    <Compile Include="Factory\__DO_NOT_MODIFY__\Vehicle.cs" />
+    <Compile Include="Factory\__Refactor__\VW_Factory.cs" />
+    <Compile Include="Factory\__Refactor__\Golf.cs" />
+    <Compile Include="Factory\__Refactor__\Jetta.cs" />
+    <Compile Include="Factory\__Refactor__\Tiguan.cs" />
+    <Compile Include="Iterator\Amazon\__DO_NOT_MODIFY__\Amazon.cs" />
+    <Compile Include="Iterator\Amazon\__DO_NOT_MODIFY__\Box.cs" />
+    <Compile Include="Iterator\Amazon\__DO_NOT_MODIFY__\Box_BaseIterator.cs" />
+    <Compile Include="Iterator\Amazon\__Refactor__\Box_ForwardIterator.cs" />
+    <Compile Include="Iterator\Amazon\__DO_NOT_MODIFY__\Truck.cs" />
+    <Compile Include="Singleton\__Refactor__\GlobalMan.cs" />
+    <Compile Include="Singleton\__DO_NOT_MODIFY__\GlobalMan_Base.cs" />
+    <Compile Include="Singleton\__Refactor__\Singleton.cs" />
+    <Compile Include="Singleton\__DO_NOT_MODIFY__\Singleton_Base.cs" />
+    <Compile Include="_Framework\UnitTestBase.cs" />
+    <Compile Include="Iterator\Garage\__DO_NOT_MODIFY__\Car.cs" />
+    <Compile Include="Iterator\Garage\__Refactor__\Car_ForwardIterator.cs" />
+    <Compile Include="Iterator\Garage\__Refactor__\Car_ReverseIterator.cs" />
+    <Compile Include="Iterator\Garage\__DO_NOT_MODIFY__\DLink.cs" />
+    <Compile Include="Iterator\Garage\__DO_NOT_MODIFY__\Garage.cs" />
+    <Compile Include="Iterator\Garage\__DO_NOT_MODIFY__\Car_BaseIterator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Tests\__DO_NOT_MODIFY__\Adapter_Tests.cs" />
+    <Compile Include="_Tests\__DO_NOT_MODIFY__\Factory_Tests.cs" />
+    <Compile Include="_Tests\__DO_NOT_MODIFY__\Iterator_Tests.cs" />
+    <Compile Include="_Tests\__DO_NOT_MODIFY__\Singleton_Tests.cs" />
+    <Compile Include="_Tests\__Modify__\Adapter_Test_Flags.cs" />
+    <Compile Include="_Tests\__Modify__\Factory_Test_Flags.cs" />
+    <Compile Include="_Tests\__Modify__\Iterator_Test_Flags.cs" />
+    <Compile Include="_Tests\__Modify__\Singleton_Test_Flags.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Adapter\Adapter_Diagram.cd" />
+    <None Include="App.config" />
+    <None Include="Factory\Factory_Diagram.cd" />
+    <None Include="Iterator\Amazon\Amazon_Diagram.cd" />
+    <None Include="Singleton\Singleton_Diagram.cd" />
+    <None Include="Iterator\Garage\Garage_Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

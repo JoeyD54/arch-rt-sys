@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PA.Car">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PA.Car.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Garage\__DO_NOT_MODIFY__\Car.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Iterator\Garage\__DO_NOT_MODIFY__\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Garage">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\Garage\__DO_NOT_MODIFY__\Garage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.DLink">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Iterator\Garage\__DO_NOT_MODIFY__\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Car_BaseIterator" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\Garage\__DO_NOT_MODIFY__\Car_BaseIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Car_ForwardIterator">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAACAEAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\Garage\__Refactor__\Car_ForwardIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Car_ReverseIterator">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAACAEABAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\Garage\__Refactor__\Car_ReverseIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

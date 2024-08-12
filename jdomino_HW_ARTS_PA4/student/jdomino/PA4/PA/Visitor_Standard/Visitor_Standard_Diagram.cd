@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PA.ElementCar">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\ElementCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.ElementPlane">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\ElementPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.ElementTruck">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\ElementTruck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Vehicle">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAIAAAAAAAAAAIAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.Element">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__DO_NOT_MODIFY__\Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Visitor">
+    <Position X="2" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.SLink" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Visitor_Standard\__DO_NOT_MODIFY__\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.VisitorTruck">
+    <Position X="0.5" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\VisitorTruck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.VisitorCar">
+    <Position X="2" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\VisitorCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.VisitorPlane">
+    <Position X="3.5" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor_Standard\__Modify__\VisitorPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

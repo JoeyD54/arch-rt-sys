@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PA.Subject">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABCAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\__Modify__\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.UpdateScoreObserver" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\__Modify__\UpdateScoreObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Observer">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\__DO_NOT_MODIFY__\Observer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.SLink" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Visitor_Standard\__DO_NOT_MODIFY__\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.RemoveAlienObserver" Collapsed="true">
+    <Position X="5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\__Modify__\RemoveAlienObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.RemoveMissileObserver" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\__Modify__\RemoveMissileObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

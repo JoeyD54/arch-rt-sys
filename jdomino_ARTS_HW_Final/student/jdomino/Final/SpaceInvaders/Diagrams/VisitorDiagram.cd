@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ColVisitor" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQQACCACAQARAABDAChAAACDgAAAAAUAiEAAAAAACA=</HashCode>
+      <FileName>Collision\ColVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Component" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAAAAYAAAgAAAABAAAAACAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAQQAAAAAAIlIEAAAAEIAAAAABiAIEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poColObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Composite" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAAABAAAAACAQAAAEAAAQIAEAAA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.GameObject" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="6.191" />
+        <Point X="5.5" Y="6.875" />
+        <Point X="7.25" Y="6.875" />
+        <Point X="7.25" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAAABAAAAAAAQAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColSubject" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <AssociationLine Name="pGameObjA" Type="SpaceInvaders.GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="3.125" />
+        <Point X="7.375" Y="3.125" />
+        <Point X="7.375" Y="6.062" />
+        <Point X="6.25" Y="6.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="pGameObjB" Type="SpaceInvaders.GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="3" />
+        <Point X="7.375" Y="3" />
+        <Point X="7.375" Y="5.642" />
+        <Point X="6.25" Y="5.642" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIAAAAAAAAAAIAAAABAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ColSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameObjA" />
+      <Field Name="pGameObjB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ColObserver">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\ColObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ColPair" Collapsed="true">
+    <Position X="1.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="poSubject" Type="SpaceInvaders.ColSubject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="5.846" />
+        <Point X="3.862" Y="5.846" />
+        <Point X="3.862" Y="2.812" />
+        <Point X="7.75" Y="2.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQhABAAgAAggQAAIAEQAAgCABAAAAABAA=</HashCode>
+      <FileName>Collision\ColPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSubject" />
+      <Field Name="treeA" />
+      <Field Name="treeB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ColObject" Collapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAABAACAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Collision\ColObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poColRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ColRect" Collapsed="true">
+    <Position X="4.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Collision\ColRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColPairMan" Collapsed="true">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <AssociationLine Name="pActiveColPair" Type="SpaceInvaders.ColPair" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="3.691" />
+        <Point X="1.875" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="poNodeCompare" Type="SpaceInvaders.ColPair" FixedToPoint="true">
+      <Path>
+        <Point X="3.125" Y="3.691" />
+        <Point X="3.125" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAACAAAAAAAgABpAAAAABIAEAAAEACAAAAAAA=</HashCode>
+      <FileName>Collision\ColPairMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pActiveColPair" />
+      <Field Name="poNodeCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

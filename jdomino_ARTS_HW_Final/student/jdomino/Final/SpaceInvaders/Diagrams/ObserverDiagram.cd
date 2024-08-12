@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.BombObserver" Collapsed="true">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\BombObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColObserver" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\ColObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ColSubject" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIAAAAAAAAAAIAAAABAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ColSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridObserver" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAQAAAAAAgAAAAAAgAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\GridObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveAlienObserver" Collapsed="true">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAIAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\RemoveAlienObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlien" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveBombObserver" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\RemoveBombObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pBomb" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveBrickObserver" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAACAQAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\RemoveBrickObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pBrick" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveMissileObserver" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\RemoveMissileObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMissile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveShipObserver" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <AssociationLine Name="pShip" Type="SpaceInvaders.GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="5.346" />
+        <Point X="4.093" Y="5.346" Type="JumpStart" />
+        <Point X="3.927" Y="5.346" Type="JumpEnd" />
+        <Point X="3.625" Y="5.346" />
+        <Point X="3.625" Y="7.399" />
+        <Point X="7" Y="7.399" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAQAAAAAAAAAA=</HashCode>
+      <FileName>Observer\RemoveShipObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pShip" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveUFOObserver" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Observer\RemoveUFOObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pUFOGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ShipMoveObserver" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ShipMoveObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipReadyObserver" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ShipReadyObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipRemoveMissileObserver" Collapsed="true">
+    <Position X="4.25" Y="6" Width="1.5" />
+    <AssociationLine Name="pMissile" Type="SpaceInvaders.GameObject" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="6.5" />
+        <Point X="7" Y="6.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ShipRemoveMissileObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMissile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SndObserver" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <AssociationLine Name="pSndEngine" Type="IrrKlang.ISoundEngine" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="3.691" />
+        <Point X="10" Y="4.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.066" Y="0.142" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\SndObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSndEngine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="7" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAQQAAAAAAIlIEAAAAEIAAAAABiAIEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrKlang.ISoundEngine" Collapsed="true">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.187" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

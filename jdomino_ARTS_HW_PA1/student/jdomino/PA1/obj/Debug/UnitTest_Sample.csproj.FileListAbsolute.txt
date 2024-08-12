@@ -1,0 +1,7 @@
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\bin\Debug\UnitTest_Sample.exe.config
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\bin\Debug\UnitTest_Sample.exe
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\bin\Debug\UnitTest_Sample.pdb
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\obj\Debug\UnitTest_Sample.csproj.AssemblyReference.cache
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\obj\Debug\UnitTest_Sample.csproj.CoreCompileInputs.cache
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\obj\Debug\UnitTest_Sample.exe
+C:\Users\playd\Perforce\Architecture of Real Time Systems\jdomino_ARTS_HW_PA1\student\jdomino\PA1\obj\Debug\UnitTest_Sample.pdb

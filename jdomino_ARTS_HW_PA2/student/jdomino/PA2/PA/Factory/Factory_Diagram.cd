@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PA.Volkswagen_Factory">
+    <Position X="0.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__Refactor__\VW_Factory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Golf">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQgAIAAAAAAAAEAgACGAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__Refactor__\Golf.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poStyle" />
+      <Field Name="poDrive" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.Jetta">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQgAAAAAAAAAAEAgACGAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__Refactor__\Jetta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poStyle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.Tiguan">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAIAAAAAAAAEAgACGAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__Refactor__\Tiguan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poDrive" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.Vehicle">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PA.Vehicle.Model" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\Vehicle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="PA.Vehicle.Color" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\Vehicle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="PA.Vehicle.Engine" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\Vehicle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="PA.Vehicle.Doors" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\Vehicle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAEAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Atlas">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAIgAAAAAAAEAgACGAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__Refactor__\Atlas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poDrive" />
+      <Field Name="poTow" />
+      <Field Name="poRow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PA.TwoWheelDrive" Collapsed="true">
+    <Position X="12.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\TwoWheelDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Hatchback" Collapsed="true">
+    <Position X="12.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\Hatchback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Sedan" Collapsed="true">
+    <Position X="14.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\Sedan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.AllWheelDrive" Collapsed="true">
+    <Position X="6" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\AllWheelDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.ThirdRow" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\ThirdRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.TowPackage" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\TowPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PA.Factory_Base">
+    <Position X="0.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\__DO_NOT_MODIFY__\Factory_Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
